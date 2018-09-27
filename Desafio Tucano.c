@@ -5,7 +5,7 @@
 void apresenta_matriz(float matriz[4][3000]){
 	for(int j=0; j<3000; j++){
 		for(int i=0; i<4; i++){
-			printf(" %f |", matriz[i][j]);
+			printf(" %f	", matriz[i][j]);
 		}
 		printf("\n\n");
 	}
@@ -34,7 +34,7 @@ int main(){
 	fprintf(pont, "\nData (ddmmaa): %d\n", data);
 	for(int j=0; j<3000; j++){
 		for(int i=0; i<4; i++){
-			fprintf(pont, " %f |", matriz[i][j]);
+			fprintf(pont, " %f 	", matriz[i][j]);
 		}
 		printf("\n\n");
 	}
